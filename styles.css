@@ -1,5 +1,7 @@
 /* styles.css */
-body 
+
+/* FIX #1: Missing opening curly brace */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +9,8 @@ body
     overflow-x: hidden;
 }
 
-heade {
+/* FIX #2: Typo "heade" corrected to "header" */
+header {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -30,17 +33,20 @@ nav ul li a {
     padding: 10px;
 }
 
+/* FIX #3: Added missing closing curly brace */
 main section {
     margin: 20px;
+}
 
-
+/* FIX #4: Added missing semicolon after bottom: 0; */
+/* FIX #5: Corrected "text-align center;" to "text-align: center;" */
 footer {
     position: absolute;
-    bottom: 0
+    bottom: 0;
     right: 0;
     width: 100vw;
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align center;
+    text-align: center;
 }
